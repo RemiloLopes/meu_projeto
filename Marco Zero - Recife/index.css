@@ -1,0 +1,123 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+header{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/imgs/bg_image.jpg);
+}
+
+.div-logo{
+    display: flex;
+}
+
+.div-buttons{
+    position: relative; top: -1rem; left: -2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Logo{
+    margin: 1rem;
+    display: inline-flex;
+}
+
+header button{
+    height: 2.5em;
+    width: fit-content;
+    background-color: #3c3b64;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+    padding: .5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 255, 255, 0.219);
+}
+
+header button:hover{
+    background-color: rgb(7, 209, 209);
+    border: 1px solid rgba(7, 209, 209, 0.192);
+    cursor: pointer;
+    color: black;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+}
+
+section{
+
+    padding: 1rem;
+}
+
+h1{
+text-align: center;
+}
+
+section p{
+    text-align: justify;
+}
+
+footer{
+    background-color: orange;
+    margin-top: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer button{
+    display: flex;
+    flex-direction: row;
+    width: 7rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+}
+
+footer button:hover{
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.ig:hover{
+    background-color: yellow;
+}
+
+.zap:hover{
+    background-color: green;
+    color: white;
+}
+
+.fb:hover{
+    background-color: blue;
+    color: white;
+}
+
+.tt:hover{
+    background-color: aquamarine;
+}
