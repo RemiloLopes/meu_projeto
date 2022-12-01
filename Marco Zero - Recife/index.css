@@ -3,7 +3,10 @@
     font-size: medium;
 }
 
+/* header */
+
 header{
+    height: 8rem;
     display: flex;
     align-items: flex-end;
     background-image: url(/imgs/bg_image.jpg);
@@ -14,7 +17,7 @@ header{
 }
 
 .div-buttons{
-    position: relative; top: -1rem; left: -2rem;
+    position: relative; top: -1rem; left: -4rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -24,6 +27,8 @@ header{
 .Logo{
     margin: 1rem;
     display: inline-flex;
+    height: 100px;
+    width: 120px;
 }
 
 header button{
@@ -47,16 +52,24 @@ header button:hover{
     color: black;
 }
 
+/* body */
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0px !important;
+    /* background-color: #7FD9F9; */
+    background-color: #43B8E8;
 }
 
 section{
-
-    padding: 1rem;
+    background-color: whitesmoke;
+    width: 70vw;
+    padding: 2rem;
+    display: block;
+    align-self: center;
+    flex-grow: 1;
 }
 
 h1{
@@ -67,9 +80,10 @@ section p{
     text-align: justify;
 }
 
+/* footer */
+
 footer{
     background-color: orange;
-    margin-top: auto;
     padding: 1rem;
     display: flex;
     flex-direction: column;

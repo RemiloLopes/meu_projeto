@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agendamento.css">
     <title>Marco Zero - Recife</title>
 </head>
 <body>
     <header>
-        <a href="/index.html"><img src="/imgs/Logo.png" alt="Logo Marco Zero"></a>
-        <ul>
-            <a href="/historia/historia.html"><li>Conheça a História do Marco Zero</li></a>
-            <a href="/imagens/imagens.html"><li>Veja Belas Imagens</li></a>
-            <a href="/agendamento/agendamento.html"><li>Agende sua Visita</li></a>
-        </ul>
+        <div class="div-logo">
+            <a href="/index.html"><img src="/imgs/Logo.png" alt="Logo Marco Zero" class="Logo"></a>
+        </div>
+        <div class="div-buttons">
+            <a href="/index.html"><button>Marco Zero</button></a>
+            <a href="/historia/historia.html"><button>Conheça a História do Marco Zero</button></a>
+            <a href="/imagens/imagens.html"><button>Veja Belas Imagens</button></a>
+            <a href="/agendamento/agendamento.html"><button>Agende sua Visita</button></a>
+        </div>     
     </header>
     <section>
         <h1>Agende sua Visita!</h1>
@@ -41,12 +45,12 @@
     </section>
     <footer>
         <h3>Contatos</h3>
-        <ul>
-            <li><a href="https://youtu.be/Gs069dndIYk" target="_blank">WhatsApp</a></li>
-            <li><a href="https://youtu.be/Gs069dndIYk" target="_blank">Facebook</a></li>
-            <li><a href="https://youtu.be/Gs069dndIYk" target="_blank">Instagram</a></li>
-            <li><a href="https://youtu.be/Gs069dndIYk" target="_blank">Twitter</a></li>
-        </ul>
+        <div class="row">
+            <a href="https://youtu.be/Gs069dndIYk" target="_blank"><Button class="ig">Instagram</Button></a>
+            <a href="https://youtu.be/Gs069dndIYk" target="_blank"><Button class="zap">WhatsApp</Button></a>
+            <a href="https://youtu.be/Gs069dndIYk" target="_blank"><Button class="fb">Facebook</Button></a>
+            <a href="https://youtu.be/Gs069dndIYk" target="_blank"><Button class="tt">Twitter</Button></a>
+        </div>
     </footer>
 </body>
 </html>
