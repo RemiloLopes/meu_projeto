@@ -82,6 +82,14 @@ section{
     text-align: center;
 }
 
+h1{
+    font-size: large;
+}
+
+.imagem{
+    margin-top: 30px;
+}
+
 /* footer */
 
 footer{
